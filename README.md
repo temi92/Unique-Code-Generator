@@ -1,4 +1,5 @@
 # Unique Code Generator 
+Given a set of IDs we can generate a set of specially crafted PNG image files that encode the IDs with checksum validation.
 
 This software was tested on Ubuntu 18.04.6 LTS
 ## Dependencies for Running Locally
@@ -17,11 +18,13 @@ From within the `build` directory, then run `cmake` and `make` as follows:
 cmake ..
 make
 ```
+Running the command above should build the executable as well as  pull down the [Google Test Framework ](https://github.com/google/googletest) is used for testing.
 ### Running
 The executable will be placed in the `build` directory. From within `build`, you can run the project as follows:
 ```
 ./UCG
 ```
+I have placed the generated output png files from my runs in 'Resources/results'/
 
 ## Testing
 
